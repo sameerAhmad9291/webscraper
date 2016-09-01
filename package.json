@@ -1,0 +1,27 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape.express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sameerAhmad9291/webscraper.git"
+  },
+  "author": "Sameer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sameerAhmad9291/webscraper/issues"
+  },
+  "homepage": "https://github.com/sameerAhmad9291/webscraper#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "q": "^1.4.1",
+    "request": "^2.74.0"
+  }
+}

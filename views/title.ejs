@@ -1,0 +1,10 @@
+<html>
+<body>
+	<h1> Following are the titles of given websites: </h1>
+	<ul>
+    <% ScrapedResults.forEach(function(address) { %>
+        <li><%= address.Url %> - <%= address.Title %></li>
+    <% }); %>
+	</ul>
+</body>
+</html>
